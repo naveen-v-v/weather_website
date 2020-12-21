@@ -9,6 +9,7 @@ const forecast = require('./utils/forecast')
 // console.log(path.join(__dirname,'../public')) //  join() used to join string and path.
 
 const app = express()
+const port = process.env.PORT || 3000  //heroku port || local port
 
 // Paths for Express config
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -89,7 +90,7 @@ app.get('*', (req,res) => {
     })
 })
 
-app.listen(3000, ()=> {  
+app.listen(port, ()=> {  
     console.log('Server is up on port 3000')
 })
 // Commented Details: Refer expressjs.com and nodejs.com
