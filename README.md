@@ -1,5 +1,5 @@
 # Real-time weather API
-It collects the data from the WeatherStack API, based on the location specified by the user
+It collects the weather data from the WeatherStack API, based on the location specified by a user
 ## API's and Modules used:
 WeatherStack API, node, express, geolocation
 
