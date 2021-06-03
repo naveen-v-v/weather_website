@@ -1,4 +1,4 @@
-# Application the provides real-time weather data based on the location specified by a user
+# Real-time weather API based on the location specified by a user
 
 ## API's and Modules used:
 WeatherStack API, node, express, geolocation
