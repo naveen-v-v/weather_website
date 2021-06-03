@@ -1,6 +1,6 @@
 # Real-time weather API
 This application has Two phases
-> Phase-One, we find the longitude and latitude from Mapbox API using the country name provided by the user
+> Phase-One, we find the longitude and latitude from Mapbox API using the country name provided by a user
 
 > Phase-Two, using these longitudes and latitudes we render the weather data from WeatherStack API
 
