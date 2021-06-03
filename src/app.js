@@ -93,26 +93,3 @@ app.get('*', (req,res) => {
 app.listen(port, ()=> {  
     console.log('Server is up on port 3000')
 })
-// Commented Details: Refer expressjs.com and nodejs.com
-
-// get() lets us configure what the server should do when someone try to get the resource from the url.
-// consider root domain app.com [assume we own it]  
-// app.com/help
-// app.com/about
-// listen() used to start the server up, has 2-args port number and an optional arg a callback function.
-
-// app.get('', (req, res) => { // root domain is used as the url arg is ''.
-//     res.send('<h1> Weather </h1>')  //can send-back html or json
-// })
-
-// app.get('/help', (req,res) => { // 2nd route
-//     res.send([
-//         {name: 'Nav'},              // sending json data, express automatically stringifies the json data and send it to the web page.
-//         {age: '20'}
-//         ]        // json can be array or objects
-//     )
-// })
-
-// app.get('/about', (req,res) => { // 3nd route
-//     res.send('About page is Working...')
-// })
