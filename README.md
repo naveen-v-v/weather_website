@@ -1,5 +1,4 @@
 # Real-time weather API based on the location specified by a user
-
 ## API's and Modules used:
 WeatherStack API, node, express, geolocation
 
