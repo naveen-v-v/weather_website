@@ -1,7 +1,11 @@
 # Real-time weather API
-It collects the weather data from the WeatherStack API, based on the location specified by a user
+This application has Two phases
+> Phase-One, we find the longitude and latitude from Mapbox API using the country name provided by the user
+
+> Phase-Two, using these longitudes and latitudes we render the weather data from WeatherStack API
+
 ## API's and Modules used:
-WeatherStack API, node, express, geolocation
+WeatherStack API (for weather data), Mapbox API(for longitude, latitude), node, express
 
 ## Basics
 * get() lets us configure what the server should do when someone try to get the resource from the url.
